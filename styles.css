@@ -1,0 +1,354 @@
+/*
+font-family: 'Arimo', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+html{
+    
+    min-height: 100%;
+    font-size: 90%;
+}
+body{
+    /*height: 100%;
+    margin: 0px;*/
+    background: linear-gradient(180deg, #222831 0%, #E75728 41%, #EEEEEE 65%, #939BA7 84%, #222831 100%);
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.Hero{
+    margin: 0px;
+    
+    /*background: linear-gradient(180deg, #222831 0%, #E75728 41%, #EEEEEE 65%, #939BA7 84%, #222831 100%);*/
+    width: 100%;
+    height: 100vh;
+    display: flex;              
+    flex-direction: row;     
+    justify-content: center;    
+    align-items: center;    
+    gap: 0px; 
+    position: relative;
+    margin-bottom: 2rem;
+}
+.skills{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 1rem;
+    
+}
+.header{
+    margin: 0;
+    margin-left: 2rem;
+    /*word-wrap: break-word;*/
+    /*overflow: hidden;*/
+
+}
+.myname{
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    font-weight: 600;
+    color: #E75728;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+.myjob{
+    font-family: 'Arimo', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #222831;
+}
+.frame{
+    position: absolute;
+    height: 60vh;
+    width: 72vw;
+}
+.whitediv{
+    flex: 1;
+    z-index: 1;
+    background-color: #EEEEEE;
+    /*align-self: center;*/
+}
+
+.orangediv{
+    flex: 1;
+    background-color: #E75728;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+/***************************************************************************************************************************************/
+
+#myphoto{
+    margin: 2%;
+    margin-left: 55%;
+    right: 0rem;
+    max-height: 100%;
+    max-width: 40%;
+    border: solid 0.5rem ;
+    border-bottom: solid 1rem #222831;
+
+}
+
+.whitediv2{
+    position: absolute;
+    z-index: 1;
+    background-color: #EEEEEE;
+    top: 15%;
+    left: 13%;
+    height: 75vh;
+    width: 35rem;
+    margin: 0;
+}
+
+.orangediv2{
+    position: absolute;
+    background-color: #E75728;
+    top: 17%;
+    left: 14.5%;
+    height: 75vh;
+    width: 35rem;
+    margin: 0;
+}
+
+
+.skills p{
+    
+    font-family: 'Arimo', sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    margin: 1rem 0px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    word-wrap: break-word;
+
+}
+
+.list.education{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.skills h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: #E75728;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 1rem;
+    
+}
+
+/*********************************************************************************************************************************************/
+.baslik{
+   font-family: 'Oswald', sans-serif !important;
+    font-size: 6rem !important; 
+    color: #E75728 !important;
+    font-weight: 600 !important;
+    display: block !important;
+    padding-bottom: 1rem; 
+    background-color: #222831;
+    margin: 0;
+}
+
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+}
+
+.pr{
+    border: solid #E75728 0.25rem;
+    background-color: #222831 ;
+    height: fit-content;
+    width: 30rem;
+    align-self: center;
+    border-radius: 5%;
+    overflow-y: scroll; 
+}
+
+.pr::-webkit-scrollbar{
+    display: none;
+}
+
+.myprojects>.wrapper>.pr>p{
+    color: #EEEEEE;
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto;
+   
+}
+
+
+.btn.btn-primary.text-center.projectlink{
+    text-align: center;
+    margin: 1.5rem 0;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    
+    background-color: #EEEEEE !important;
+}
+a[href]{
+    color: #E75728;
+}
+/*********************************************************************************************************************************************/
+
+.abtwrapper{
+    display: grid;
+    grid-template-columns: 1fr 18fr 0.5fr;
+    grid-template-rows: 1fr 10fr 0.5fr;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+.whitediv3{
+    
+    /*height: 50%;*/
+    width: 100%;
+    background-color: #EEEEEE;
+
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+
+}
+
+
+
+.orangediv3{
+    background-color: #E75728;
+    grid-column: 3/ span 1;
+    grid-row: 2/ span 2;
+    height: 100%;
+}
+.orangediv4{
+    background-color: #E75728;
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 1;
+    height: 100%;
+}
+
+
+.abt{
+    padding-left: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    font-weight: 600;
+    color: #E75728;
+
+}
+
+.left-frame{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span;
+}
+
+
+.abtmelist{
+    padding: 2.5% 5%;
+}
+
+.abtmelist>li>p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    color: #222831;
+
+}
+
+
+
+.backscreen{
+    /*padding-bottom: 5%;*/
+    margin-top: 5%;
+}
+/**********************************************************************************************************/
+
+.ContactMeGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    margin: 5% 10%;
+    gap: 5%;
+
+}
+.ContactMetxt{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10rem;
+    font-weight: 700;
+}
+.commtxt{
+    border-radius: 2.5%;
+    border:#E75728 solid 10px;
+    background-color: #222831;
+
+}
+
+.commtxt>ul>li>p{
+    color: #EEEEEE;
+    padding: 2%;
+    padding-left: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+
+.commtxt>ul>li{
+
+width: 100%;
+}
+
+
+.commtxt ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 2% 0;
+  }
+ 
+svg{
+    width: 10px;
+    height: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    grid-row: 2/ span 1;
+    grid-column: 1/ span 2;
+}
+.links>a{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #1e1e1e;
+}
+
+
+
+
+@media (max-width:1250px){
+    .wrapper{
+        flex-direction: column;
+        width: 100%;
+        margin: 5%;
+    }
+    
+}
